@@ -1,0 +1,11 @@
+{
+    "name": "Catapitana Organization Workflow Bye bye",
+    "description": "CI Bye bye starter workflow.",
+    "iconName": "octicon heart-fill",
+    "categories": [
+        "Java"        
+    ],
+    "filePatterns":[
+        "*.java*"
+    ]
+}
