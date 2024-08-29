@@ -1,0 +1,16 @@
+name: Catapitana Organization CI workflow
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Say hello!
+        run: echo Hello from Catapitana Organization!
+      - uses: actions/checkout@v4
+      
