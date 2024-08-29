@@ -1,0 +1,16 @@
+name: Catapitana Organization CI workflow Bye
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Say bye!
+        run: echo Bye bye! from Catapitana Organization!
+      - uses: actions/checkout@v4
+      
