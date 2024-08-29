@@ -1,0 +1,11 @@
+{
+    "name": "Catapitana Organization Workflow",
+    "description": "CI starter workflow.",
+    "iconName": "octicon heart-fill",
+    "categories": [
+        "Java"        
+    ],
+    "filePatterns":[
+        "*.java*"
+    ]
+}
