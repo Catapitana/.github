@@ -6,6 +6,6 @@
         "Java"        
     ],
     "filePatterns":[
-        "*.java*"
+        "*.java"
     ]
 }
